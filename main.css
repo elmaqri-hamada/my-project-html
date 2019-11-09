@@ -4,19 +4,19 @@
     border: 1px solid black;
 }
 
-.header{
+.header {
     display: flex;
     align-items: stretch;
 }
 
-.header-img{
+.header-img {
     flex-grow: 2;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-.header-title{
+.header-title {
     flex-grow: 8
 }
 
@@ -24,7 +24,12 @@
     display: flex;
     justify-content: space-around;
 }
-.social img{
+
+.social img {
     margin: 5px;
     cursor: pointer;
+}
+
+.content {
+    margin: 10px;
 }
